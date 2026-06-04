@@ -20,9 +20,9 @@ $is_admin = isset($_SESSION['admin']) && $_SESSION['admin'];
   <style>
     /* Основные цвета: синий и серебристый (как на странице регистрации) */
     :root {
-      --blue-dark: #007bff;
-      --blue-medium: #0d47a1;
-      --blue-light: #4a7bcb;
+      --blue-dark: #cecb18ff;
+      --blue-medium: #000000ff;
+      --blue-light: #778f0fff;
       --silver: #c0c0c0;
       --silver-light: #e0e0e0;
       --white: #ffffff;
@@ -231,7 +231,7 @@ $is_admin = isset($_SESSION['admin']) && $_SESSION['admin'];
 <div class="slideshow-container">
   <!-- Слайды -->
   <div class="mySlides fade">
-    <img src="https://tatarstan.ru/file/news/1302_n2026082_big.jpg" alt="Слайд 1">
+    <img src="1675870847_grizly-club-p-klipart-ku.jpg" alt="Слайд 1">
     <div class="text">Курсы повышения квалификации</div>
   </div>
 
@@ -243,7 +243,7 @@ $is_admin = isset($_SESSION['admin']) && $_SESSION['admin'];
   
 
   <div class="mySlides fade">
-    <img src="https://apksmgu.ru/upload/iblock/952/hyg0t4pfzc2mlb3jw4nto6j6p36eovsd.jpeg" alt="Слайд 4">
+    <img src="2.png" alt="Слайд 4">
     <div class="text">Курсы по охране труда</div>
   </div>
 
