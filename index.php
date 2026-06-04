@@ -237,10 +237,13 @@ $is_admin = isset($_SESSION['admin']) && $_SESSION['admin'];
 
   <div class="mySlides fade">
     <img src="slide18-l-1.jpg" alt="Слайд 2">
-    <div class="text">Курсы переподготовки</div>
+    <div class="text">Курсы переподготовки</div>  
   </div>
 
-  
+    <div class="mySlides fade">
+    <img src="demoexamaienchancher.webp" alt="Слайд 3">
+    <div class="text">Дистанционное обучение</div>
+  </div>
 
   <div class="mySlides fade">
     <img src="283cb9bf-c05f-5f17-8a87-755848f90072-Picsart-AiImageEnhancer.jpg" alt="Слайд 4">
