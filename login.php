@@ -74,8 +74,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #007bff 0%, #0d47a1 100%);
-            min-height: 100vh;
+            background: linear-gradient(135deg, #a0c224ff 0%, #020408ff 100%);
+            min-height: 100vh;  
             display: flex;
             justify-content: center;
             align-items: center;
@@ -134,7 +134,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         .logo h1 {
             font-size: 32px;
-            background: linear-gradient(135deg, #007bff 0%, #0d47a1 100%);
+            background: linear-gradient(135deg, #bebc1aff 0%, #0d47a1 100%);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
@@ -143,7 +143,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         @keyframes titleGlow {
             0%, 100% {
-                text-shadow: 0 0 0px rgba(88, 133, 185, 0);
+                text-shadow: 0 0 0px rgba(132, 185, 88, 0);
             }
             50% {
                 text-shadow: 0 0 15px rgba(88, 133, 185, 0.3);

@@ -121,7 +121,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #5885b9 0%, #2ca094 100%);
+            background: linear-gradient(135deg, #d3d62eff 0%, #2ca094 100%);
             min-height: 100vh;
             padding: 40px 20px;
             position: relative;
@@ -132,7 +132,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         .circle {
             position: fixed;
             border-radius: 50%;
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(255, 238, 0, 0.11);
             animation: float 20s infinite linear;
             z-index: 0;
         }
@@ -192,7 +192,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 text-shadow: 0 0 0px rgba(88, 133, 185, 0);
             }
             50% {
-                text-shadow: 0 0 15px rgba(184, 219, 28, 0.3);
+                text-shadow: 0 0 15px rgba(88, 133, 185, 0.3);
             }
         }
 
@@ -420,7 +420,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
 
         .back-home:hover {
-            color: #5885b9;
+            color: #95c030ff;
         }
 
         /* Адаптивность */
