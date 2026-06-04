@@ -21,7 +21,7 @@ $is_admin = isset($_SESSION['admin']) && $_SESSION['admin'];
     /* Основные цвета: синий и серебристый (как на странице регистрации) */
     :root {
       --blue-dark: #cecb18ff;
-      --blue-medium: #000000ff;
+      --blue-medium: #f3db50ff;
       --blue-light: #778f0fff;
       --silver: #c0c0c0;
       --silver-light: #e0e0e0;
@@ -236,7 +236,7 @@ $is_admin = isset($_SESSION['admin']) && $_SESSION['admin'];
   </div>
 
   <div class="mySlides fade">
-    <img src="https://www.kti.ru/img/news/1211/big_5b6c68b6d188413ca564f811f95bf318507fc1e023536ee8255432598f452.png" alt="Слайд 2">
+    <img src="slide18-l-1.jpg" alt="Слайд 2">
     <div class="text">Курсы переподготовки</div>
   </div>
 
